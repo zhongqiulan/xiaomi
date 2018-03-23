@@ -1,0 +1,91 @@
+/*初始化代码*/
+body,
+div,
+span,
+a,
+h1,
+h2,
+h3,
+h4,
+input,
+img,
+p,
+i,
+em,
+strong,
+ul,
+li,
+ol,
+button {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+
+a:hover {
+	color: #fff;
+}
+
+input {
+	border: 0 none;
+	outline: none;
+}
+
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+
+li {
+	list-style: none;
+}
+
+i,
+em {
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: normal;
+}
+
+body {
+	font: 12px/100% "微软雅黑";
+	background-color: #fff;
+}
+/*设置版心宽度*/
+.w {
+	width: 1226px;
+	margin: 0 auto;
+}
+/*清除浮动影响*/
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+/*兼容低版本的ie*/
+.clearfix {
+	*zoom:1;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.ta {
+	text-align: center;
+}
